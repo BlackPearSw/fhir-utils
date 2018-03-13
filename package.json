@@ -1,0 +1,38 @@
+{
+  "name": "fhir-utils",
+  "version": "0.0.1",
+  "description": "Utility classes for manipulating HL7 FHIR resources",
+  "keywords": [
+    "HL7",
+    "FHIR",
+    "DSTU3"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlackPearSw/fhir-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BlackPearSw/fhir-utils/issues"
+  },
+  "contributors": [
+    {
+      "name": "Dunmail Hodkinson",
+      "email": "dunmail@blackpear.com"
+    }
+  ],
+  "devDependencies": {
+    "mocha": "^5.0.4"
+  },
+  "main": "./lib/index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "license": "LGPL-3.0+",
+  "scripts": {
+    "test": "mocha --recursive ./tests"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "require-dir": "^1.0.0"
+  }
+}
