@@ -1,7 +1,7 @@
 # fhir-utils
 Utility functions for manipulation of HL7 FHIR STU3 resources.
 
-[![NPM](https://nodei.co/npm/fhir.png)](https://nodei.co/npm/fhir/)
+[![NPM](https://nodei.co/npm/fhir-utils.png)](https://nodei.co/npm/fhir-utils/)
 
 ## ResourceVisitor
 ### use
