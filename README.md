@@ -1,6 +1,8 @@
 # fhir-utils
 Utility functions for manipulation of HL7 FHIR STU3 resources.
 
+[![NPM](https://nodei.co/npm/fhir.png)](https://nodei.co/npm/fhir/)
+
 ## ResourceVisitor
 ### use
 
@@ -63,4 +65,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Acknowledgements
 ----------------
-Supported by [Black Pear Software](www.blackpear.com)
+Supported by [Black Pear Software](http://www.blackpear.com)

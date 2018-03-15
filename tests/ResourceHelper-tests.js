@@ -58,6 +58,10 @@ describe('ResourceHelper', function () {
                 it('should capitalise a resource name in Pascal case', function(){
                     helper.capitalisedType('auditevent').should.equal('AuditEvent');
                 });
+
+                it('should maintain compatibility with legacy resource types', function(){
+                    helper.capitalisedType('document').should.equal('Bundle');
+                });
             });
         });
     });
