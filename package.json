@@ -1,6 +1,6 @@
 {
   "name": "fhir-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utility classes for manipulating HL7 FHIR resources",
   "keywords": [
     "HL7",
