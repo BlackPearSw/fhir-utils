@@ -137,8 +137,9 @@ describe('ResourceVisitor', function () {
                 it('when root is a Parameters with a value<Resource>', function () {
                     var element = {
                         resourceType: 'Parameters',
-                        parameters: [
+                        parameter: [
                             {
+                                name: 'patientValue',
                                 valuePatient: {
                                     resourceType: 'Patient'
                                 }
@@ -154,8 +155,9 @@ describe('ResourceVisitor', function () {
                 it('when root is a Parameters with a resource', function () {
                     var element = {
                         resourceType: 'Parameters',
-                        parameters: [
+                        parameter: [
                             {
+                                name: 'patientResource',
                                 resource: {
                                     resourceType: 'Patient'
                                 }
@@ -171,8 +173,9 @@ describe('ResourceVisitor', function () {
                 it('when root is a Parameters with parameter.part', function () {
                     var element = {
                         resourceType: 'Parameters',
-                        parameters: [
+                        parameter: [
                             {
+                                name: 'patient',
                                 part: [
                                     {
                                         valuePatient: {
