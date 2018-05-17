@@ -91,6 +91,18 @@ describe('ResourceVisitor', function () {
                     n.should.equal(3);
                 });
 
+                it('when root is an empty Bundle', function () {
+                    var element = {
+                        resourceType: 'Bundle',
+                        "type": "searchset",
+                        "total": 0
+                    };
+
+                    visitor.visit(element, op);
+
+                    n.should.equal(0);
+                });
+
                 it('when root is a DSTU1 Bundle', function () {
                     var element = {
                         resourceType: 'Bundle',
